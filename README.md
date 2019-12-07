@@ -1,4 +1,5 @@
 # flask-docker
+
 Build the image
 
 `docker build -t test .`
@@ -22,4 +23,14 @@ You can then use the id to stop the container:
 
 `docker stop <Container Id>`
 
-Flask Application Dock
+### Note
+Summary
+In this concept, you practiced building two Docker containers from Dockerfiles. You also learned or revisited some of the commands and flags that are useful for this process, including:
+
+docker build which will build an image based on a Dockerfile.
+
+The `--tag` flag, which is used to name the image.
+
+The docker run command, which is used to run a container based on the image.
+
+The `-p` flag can be used to map container ports to host machine ports.
